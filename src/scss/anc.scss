@@ -1,0 +1,10 @@
+/* Block Freemius ads */
+body {
+    div.fs-notice {
+        &.updated,
+        &.success,
+        &.promotion {
+            display: none !important;
+        }
+    }
+}
