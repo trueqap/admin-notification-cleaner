@@ -1,10 +1,25 @@
-/* Block Freemius ads */
-body {
-    div.fs-notice {
-        &.updated,
-        &.success,
-        &.promotion {
-            display: none !important;
-        }
-    }
+%hide-notice {
+  display: none !important;
+}
+
+// Freemius
+body div.fs-notice.updated,
+body div.fs-notice.success,
+body div.fs-notice.promotion {
+  @extend %hide-notice;
+}
+
+// WP Bakery
+.updated.wpb-notice {
+  @extend %hide-notice;
+}
+
+// WP Mail SMTP
+.notice-info.is-dismissible.wp-mail-smtp-review-notice {
+  @extend %hide-notice;
+}
+
+// PixelYourSite
+.notice.is-dismissible.pys-optin-notice.pys-notice-wrapper {
+  @extend %hide-notice;
 }
