@@ -96,6 +96,11 @@
   @extend %hide-notice;
 }
 
+// Converter for Media
+[data-notice="webp-converter-for-media"] {
+  @extend %hide-notice;
+}
+
 
 // Review Notice
 .wp-admin .wrap .notice.notice-info.is-dismissible.members-review-notice {
