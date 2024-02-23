@@ -28,6 +28,11 @@
   @extend %hide-notice;
 }
 
+// WooCommerce Smart COD
+.wp-admin .wrap .wsc-pro-notice {
+  @extend %hide-notice;
+}
+
 // WP Bakery
 .wp-admin .wrap .updated.wpb-notice {
   @extend %hide-notice;
