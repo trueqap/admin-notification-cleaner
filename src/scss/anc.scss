@@ -56,6 +56,9 @@
 .wp-admin .wrap .notice.notice-success.settings-error.is-dismissible {
   @extend %hide-notice;
 }
+.wp-admin .wrap .notice.notice-warning.settings-error.is-dismissible {
+  @extend %hide-notice;
+}
 
 // Premium Off Canvas
 .wp-admin .wrap .error.pa-notice-wrap.pa-new-feature-notice {
