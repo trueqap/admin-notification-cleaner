@@ -6,6 +6,19 @@
   display: block !important;
 }
 
+// Forced
+.wp-admin .wrap .notice.is-dismissible {
+  @extend %hide-notice;
+}
+
+.wp-admin .wrap {
+  .notice.is-dismissible.notice-success,
+  .notice.is-dismissible.notice-error,
+  .notice.is-dismissible.notice-info {
+    @include show-notice;
+  }
+}
+
 // Freemius
 .wp-admin .wrap .fs-notice.updated,
 .wp-admin .wrap .fs-notice.success,
@@ -35,6 +48,10 @@
 
 // PixelYourSite
 .wp-admin .wrap .notice.is-dismissible.pys-optin-notice.pys-notice-wrapper {
+  @extend %hide-notice;
+}
+
+.wp-admin .wrap .notice.notice-info.is-dismissible.pys_core_gdpr_ajax_notice {
   @extend %hide-notice;
 }
 
@@ -91,18 +108,4 @@
 
 .wp-admin .wrap .notice.notice-info.aioseo-review-plugin-cta.is-dismissible {
   @extend %hide-notice;
-}
-
-
-// Forced
-.wp-admin .wrap .notice.is-dismissible {
-  @extend %hide-notice;
-}
-
-.wp-admin .wrap {
-  .notice.is-dismissible.notice-success,
-  .notice.is-dismissible.notice-error,
-  .notice.is-dismissible.notice-info {
-    @include show-notice;
-  }
 }
