@@ -1,146 +1,80 @@
-%hide-notice {
-  display: none !important;
-}
-
+// Basic display rule for notices
 @mixin show-notice {
   display: block !important;
 }
 
-// Forced
-.wp-admin .wrap .notice.is-dismissible {
-  @extend %hide-notice;
+// Basic hide rule to be used extensively
+%hide-notice {
+  display: none !important;
 }
 
-// Freemius
-.wp-admin .wrap .fs-notice.updated,
-.wp-admin .wrap .fs-notice.success,
-.wp-admin .wrap .fs-notice.promotion {
-  @extend %hide-notice;
-}
-
-// SweetCode
-.wp-admin .wrap .wpm-rating-success-notice {
-  @extend %hide-notice;
-}
-
-// fs-notice
-.wp-admin .wrap .fs-notice{
-  @extend %hide-notice;
-}
-
-// TagDiv
-.wp-admin .td-error-activate.td-admin-web-services  {
-  @extend %hide-notice;
-}
-
-// Usermenu
-.wp-admin .wrap .jpum-notice {
-  @extend %hide-notice;
-}
-.wp-admin .wrap .notice.notice-success.is-dismissible.jpum-notice {
-  @extend %hide-notice;
-}
-
-// PrettyPay
-.wp-admin .wrap .prli-notice {
-  @extend %hide-notice;
-}
-.wp-admin .wrap #prli_review_notice {
-  @extend %hide-notice;
-}
-
-// WooCommerce Smart COD
-.wp-admin .wrap .wsc-pro-notice {
-  @extend %hide-notice;
-}
-
-// WP Bakery
-.wp-admin .wrap .updated.wpb-notice {
-  @extend %hide-notice;
-}
-
-.wp-admin .wrap .updated.vc_license-activation-notice {
-// The reason for this is that many themes purchased from ThemeForest include WP Bakery by default, which does not need to be activated since updates come from the theme's developer. Therefore, the notification is unnecessary and distracting.
-  @extend %hide-notice;
-}
-
-// WP Mail SMTP
-.wp-admin .wrap .notice-info.is-dismissible.wp-mail-smtp-review-notice {
-  @extend %hide-notice;
-}
-
-// PixelYourSite
-.wp-admin .wrap .notice.is-dismissible.pys-optin-notice.pys-notice-wrapper {
-  @extend %hide-notice;
-}
-
-.wp-admin .wrap .notice.notice-info.is-dismissible.pys_core_gdpr_ajax_notice {
-  @extend %hide-notice;
-}
-
-.wp-admin .wrap .notice.notice-info.is-dismissible.pys-chain-fixed-notice.pys-fixed-notice{
-  @extend %hide-notice;
-}
-
-// Elementor
-.wp-admin .wrap .notice.updated.is-dismissible.a11y-notice.a11y-install-elementor {
-  @extend %hide-notice;
-}
-
-.wp-admin .wrap .notice.e-notice.e-notice--dismissible.e-notice--extended {
-  @extend %hide-notice;
-}
-
-// AdRotate
-.wp-admin .wrap .notice.ajdg-notification {
-  @extend %hide-notice;
-}
-
-// CTX Feed
-.wp-admin .wrap .notice.woo-feed-notice.notice.notice-info {
-  @extend %hide-notice;
-}
-
-// Hide the notice for theme setup
-.wp-admin .wrap .notice.notice-success.settings-error.is-dismissible {
-  @extend %hide-notice;
-}
-.wp-admin .wrap .notice.notice-warning.settings-error.is-dismissible {
-  @extend %hide-notice;
-}
-
-// Premium Off Canvas
-.wp-admin .wrap .error.pa-notice-wrap.pa-new-feature-notice {
-  @extend %hide-notice;
-}
-
-//WPML
-.wp-admin .wrap .notice.notice-info.is-dismissible.otgs-notice {
-  @extend %hide-notice;
-}
-
-// Converter for Media
-div[data-notice="webp-converter-for-media"] {
-  @extend %hide-notice;
-}
-
-// Review Notice
-.wp-admin .wrap .notice.notice-info.is-dismissible.members-review-notice {
-  @extend %hide-notice;
-}
-
-.wp-admin .wrap .notice.notice-info.is-dismissible.wp-mail-logging-review-notice {
-  @extend %hide-notice;
-}
-
-.wp-admin .wrap .notice.notice-info.aioseo-review-plugin-cta.is-dismissible {
-  @extend %hide-notice;
-}
-
+// Custom styles for the WordPress admin area
 .wp-admin .wrap {
+  // Default notices we want to show
   .notice.is-dismissible.notice-success,
   .notice.is-dismissible.notice-error,
   .notice.is-dismissible.notice-info {
-    @include show-notice;
+    @include show-notice; // Apply the display rule
+  }
+
+  // The rest of your specific show rules here...
+  // Add any additional notices you want to explicitly show before starting to hide others.
+}
+
+// Now, hiding rules at the end as requested
+.wp-admin .wrap {
+  // Forced hiding of dismissible notices
+  .notice.is-dismissible {
+    @extend %hide-notice;
+  }
+
+  // Freemius notices
+  .fs-notice.updated,
+  .fs-notice.success,
+  .fs-notice.promotion,
+  .fs-notice,
+  // SweetCode notice
+  .wpm-rating-success-notice,
+  // TagDiv error message
+  .td-error-activate.td-admin-web-services,
+  // Usermenu notices
+  .jpum-notice,
+  .notice.notice-success.is-dismissible.jpum-notice,
+  // PrettyPay notices
+  .prli-notice,
+  #prli_review_notice,
+  // WooCommerce Smart COD promotion
+  .wsc-pro-notice,
+  // WP Bakery update notice
+  .updated.wpb-notice,
+  .updated.vc_license-activation-notice,
+  // WP Mail SMTP review request
+  .notice-info.is-dismissible.wp-mail-smtp-review-notice,
+  // PixelYourSite opt-in notice
+  .notice.is-dismissible.pys-optin-notice.pys-notice-wrapper,
+  .notice.notice-info.is-dismissible.pys_core_gdpr_ajax_notice,
+  .notice.notice-info.is-dismissible.pys-chain-fixed-notice.pys-fixed-notice,
+  // Elementor accessibility notice
+  .notice.updated.is-dismissible.a11y-notice.a11y-install-elementor,
+  // Extended notices
+  .notice.e-notice.e-notice--dismissible.e-notice--extended,
+  // AdRotate notification
+  .ajdg-notification,
+  // CTX Feed notice
+  .woo-feed-notice.notice.notice-info,
+  // Theme setup notices
+  .notice.notice-success.settings-error.is-dismissible,
+  .notice.notice-warning.settings-error.is-dismissible,
+  // Premium Off Canvas feature notice
+  .error.pa-notice-wrap.pa-new-feature-notice,
+  // WPML notices
+  .notice.notice-info.is-dismissible.otgs-notice,
+  // WebP Converter for Media notice
+  div[data-notice="webp-converter-for-media"],
+  // Review notices
+  .notice.notice-info.is-dismissible.members-review-notice,
+  .notice.notice-info.is-dismissible.wp-mail-logging-review-notice,
+  .notice.notice-info.aioseo-review-plugin-cta.is-dismissible {
+    @extend %hide-notice; // Apply the hide rule
   }
 }
