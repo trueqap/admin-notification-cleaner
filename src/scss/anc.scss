@@ -29,7 +29,7 @@
 }
 
 // TagDiv
-.wp-admin .wrap .td-admin-web-services {
+.wp-admin .td-error-activate.td-admin-web-services  {
   @extend %hide-notice;
 }
 
@@ -37,9 +37,15 @@
 .wp-admin .wrap .jpum-notice {
   @extend %hide-notice;
 }
+.wp-admin .wrap .notice.notice-success.is-dismissible.jpum-notice {
+  @extend %hide-notice;
+}
 
 // PrettyPay
 .wp-admin .wrap .prli-notice {
+  @extend %hide-notice;
+}
+.wp-admin .wrap #prli_review_notice {
   @extend %hide-notice;
 }
 
