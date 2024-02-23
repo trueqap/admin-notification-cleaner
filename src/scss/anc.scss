@@ -97,8 +97,8 @@
 }
 
 // Converter for Media
-[data-notice="webp-converter-for-media"] {
-  @extend %hide-notice;
+div[data-notice="webp-converter-for-media"] {
+  display: none !important;
 }
 
 
