@@ -11,14 +11,6 @@
   @extend %hide-notice;
 }
 
-.wp-admin .wrap {
-  .notice.is-dismissible.notice-success,
-  .notice.is-dismissible.notice-error,
-  .notice.is-dismissible.notice-info {
-    @include show-notice;
-  }
-}
-
 // Freemius
 .wp-admin .wrap .fs-notice.updated,
 .wp-admin .wrap .fs-notice.success,
@@ -98,9 +90,8 @@
 
 // Converter for Media
 div[data-notice="webp-converter-for-media"] {
-  display: none !important;
+  @extend %hide-notice;
 }
-
 
 // Review Notice
 .wp-admin .wrap .notice.notice-info.is-dismissible.members-review-notice {
@@ -113,4 +104,12 @@ div[data-notice="webp-converter-for-media"] {
 
 .wp-admin .wrap .notice.notice-info.aioseo-review-plugin-cta.is-dismissible {
   @extend %hide-notice;
+}
+
+.wp-admin .wrap {
+  .notice.is-dismissible.notice-success,
+  .notice.is-dismissible.notice-error,
+  .notice.is-dismissible.notice-info {
+    @include show-notice;
+  }
 }
