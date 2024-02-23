@@ -52,9 +52,18 @@
   @extend %hide-notice;
 }
 
+// Premium Off Canvas
+.wp-admin .wrap .error .pa-notice-wrap.pa-new-feature-notice {
+  @extend %hide-notice;
+}
+
+//WPML
+.wp-admin .wrap .notice.notice-info.is-dismissible.otgs-notice {
+  @extend %hide-notice;
+}
+
 
 // Review Notice
-
 .wp-admin .wrap .notice.notice-info.is-dismissible.members-review-notice {
   @extend %hide-notice;
 }
