@@ -2,6 +2,10 @@
   display: none !important;
 }
 
+@mixin show-notice {
+  display: block !important;
+}
+
 // Freemius
 .wp-admin .wrap .fs-notice.updated,
 .wp-admin .wrap .fs-notice.success,
@@ -93,4 +97,12 @@
 // Forced
 .wp-admin .wrap .notice.is-dismissible {
   @extend %hide-notice;
+}
+
+.wp-admin .wrap {
+  .notice.is-dismissible.notice-success,
+  .notice.is-dismissible.notice-error,
+  .notice.is-dismissible.notice-info {
+    @include show-notice;
+  }
 }
