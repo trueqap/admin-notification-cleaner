@@ -47,6 +47,11 @@
   @extend %hide-notice;
 }
 
+// CTX Feed
+.wp-admin .wrap .notice.woo-feed-notice.notice.notice-info {
+  @extend %hide-notice;
+}
+
 // Hide the notice for theme setup
 .wp-admin .wrap .notice.notice-success.settings-error.is-dismissible {
   @extend %hide-notice;
