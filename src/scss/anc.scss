@@ -79,3 +79,7 @@
 .wp-admin .wrap .notice.notice-info.is-dismissible.wp-mail-logging-review-notice {
   @extend %hide-notice;
 }
+
+.wp-admin .wrap .notice.notice-info.aioseo-review-plugin-cta.is-dismissible {
+  @extend %hide-notice;
+}
