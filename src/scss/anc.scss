@@ -14,11 +14,8 @@
   .notice.is-dismissible.notice-success,
   .notice.is-dismissible.notice-error,
   .notice.is-dismissible.notice-info {
-    @include show-notice; // Apply the display rule
+    @include show-notice;
   }
-
-  // The rest of your specific show rules here...
-  // Add any additional notices you want to explicitly show before starting to hide others.
 }
 
 // Now, hiding rules at the end as requested
