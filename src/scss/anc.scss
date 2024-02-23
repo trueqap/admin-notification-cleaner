@@ -28,6 +28,21 @@
   @extend %hide-notice;
 }
 
+// TagDiv
+.wp-admin .wrap .td-admin-web-services {
+  @extend %hide-notice;
+}
+
+// Usermenu
+.wp-admin .wrap .jpum-notice {
+  @extend %hide-notice;
+}
+
+// PrettyPay
+.wp-admin .wrap .prli-notice {
+  @extend %hide-notice;
+}
+
 // WooCommerce Smart COD
 .wp-admin .wrap .wsc-pro-notice {
   @extend %hide-notice;
