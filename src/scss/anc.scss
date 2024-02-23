@@ -53,7 +53,7 @@
 }
 
 // Premium Off Canvas
-.wp-admin .wrap .error .pa-notice-wrap.pa-new-feature-notice {
+.wp-admin .wrap .error.pa-notice-wrap.pa-new-feature-notice {
   @extend %hide-notice;
 }
 
