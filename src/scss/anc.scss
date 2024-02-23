@@ -9,6 +9,11 @@
   @extend %hide-notice;
 }
 
+// fs-notice
+.wp-admin .wrap .fs-notice{
+  @extend %hide-notice;
+}
+
 // WP Bakery
 .wp-admin .wrap .updated.wpb-notice {
   @extend %hide-notice;
