@@ -23,3 +23,8 @@ body div.fs-notice.promotion {
 .notice.is-dismissible.pys-optin-notice.pys-notice-wrapper {
   @extend %hide-notice;
 }
+
+// Elementor
+.notice.updated.is-dismissible.a11y-notice.a11y-install-elementor {
+  @extend %hide-notice;
+}
