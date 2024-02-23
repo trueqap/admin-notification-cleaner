@@ -3,28 +3,42 @@
 }
 
 // Freemius
-body div.fs-notice.updated,
-body div.fs-notice.success,
-body div.fs-notice.promotion {
+.wp-admin .wrap .fs-notice.updated,
+.wp-admin .wrap .fs-notice.success,
+.wp-admin .wrap .fs-notice.promotion {
   @extend %hide-notice;
 }
 
 // WP Bakery
-.updated.wpb-notice {
+.wp-admin .wrap .updated.wpb-notice {
   @extend %hide-notice;
 }
 
 // WP Mail SMTP
-.notice-info.is-dismissible.wp-mail-smtp-review-notice {
+.wp-admin .wrap .notice-info.is-dismissible.wp-mail-smtp-review-notice {
   @extend %hide-notice;
 }
 
 // PixelYourSite
-.notice.is-dismissible.pys-optin-notice.pys-notice-wrapper {
+.wp-admin .wrap .notice.is-dismissible.pys-optin-notice.pys-notice-wrapper {
+  @extend %hide-notice;
+}
+
+.wp-admin .wrap .notice.notice-info.is-dismissible.pys-chain-fixed-notice.pys-fixed-notice.notice-color-green {
   @extend %hide-notice;
 }
 
 // Elementor
-.notice.updated.is-dismissible.a11y-notice.a11y-install-elementor {
+.wp-admin .wrap .notice.updated.is-dismissible.a11y-notice.a11y-install-elementor {
+  @extend %hide-notice;
+}
+
+// AdRotate
+.wp-admin .wrap .notice.ajdg-notification {
+  @extend %hide-notice;
+}
+
+// Hide the notice for theme setup
+.wp-admin .wrap .notice.notice-success.settings-error.is-dismissible {
   @extend %hide-notice;
 }
