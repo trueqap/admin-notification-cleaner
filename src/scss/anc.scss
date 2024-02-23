@@ -88,3 +88,9 @@
 .wp-admin .wrap .notice.notice-info.aioseo-review-plugin-cta.is-dismissible {
   @extend %hide-notice;
 }
+
+
+// Forced
+.wp-admin .wrap .notice.is-dismissible {
+  @extend %hide-notice;
+}
