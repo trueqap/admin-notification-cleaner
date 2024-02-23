@@ -33,6 +33,10 @@
   @extend %hide-notice;
 }
 
+.wp-admin .wrap .notice.e-notice.e-notice--dismissible.e-notice--extended {
+  @extend %hide-notice;
+}
+
 // AdRotate
 .wp-admin .wrap .notice.ajdg-notification {
   @extend %hide-notice;
