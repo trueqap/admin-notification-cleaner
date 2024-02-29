@@ -19,7 +19,7 @@
 }
 
 // Now, hiding rules at the end as requested
-.wp-admin .wrap {
+.wp-admin {
   // Forced hiding of dismissible notices
   .notice.is-dismissible {
     @extend %hide-notice;
@@ -66,10 +66,10 @@
   .error.pa-notice-wrap.pa-new-feature-notice,
   // YayMail notice
   #yaymail-notice,
-  //ultimatelysocial
-  .sfsi_new_premium_banner_body,
-  //Loginpress
+  //LoginPress
   .loginpress-review-notice,
+   //ultimatelysocial
+  .sfsi_new_premium_banner_body,
   // WPML notices
   .notice.notice-info.is-dismissible.otgs-notice,
   // WebP Converter for Media notice
