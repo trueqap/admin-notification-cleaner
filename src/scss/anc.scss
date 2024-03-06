@@ -82,7 +82,8 @@
   .notice.notice-info.is-dismissible.members-review-notice,
   .notice.notice-info.is-dismissible.wp-mail-logging-review-notice,
   .notice.notice-info.aioseo-review-plugin-cta.is-dismissible,
-  #members_review_notice {
+  #members_review_notice,
+  #setting-error-tgmpa {
     @extend %hide-notice; // Apply the hide rule
   }
 }
