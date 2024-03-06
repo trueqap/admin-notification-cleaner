@@ -81,7 +81,8 @@
   // Review notices
   .notice.notice-info.is-dismissible.members-review-notice,
   .notice.notice-info.is-dismissible.wp-mail-logging-review-notice,
-  .notice.notice-info.aioseo-review-plugin-cta.is-dismissible {
+  .notice.notice-info.aioseo-review-plugin-cta.is-dismissible,
+  .members_review_notice {
     @extend %hide-notice; // Apply the hide rule
   }
 }
