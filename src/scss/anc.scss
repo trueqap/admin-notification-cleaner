@@ -8,23 +8,19 @@
   display: none !important;
 }
 
-// Custom styles for the WordPress admin area
-.wp-admin .wrap {
+// Styles for the WordPress admin area
+body.wp-admin {
   // Default notices we want to show
-  .notice.is-dismissible.notice-success,
-  .notice.is-dismissible.notice-error,
-  .notice.is-dismissible.notice-info {
-    @include show-notice;
-  }
-}
-
-// Now, hiding rules at the end as requested
-.wp-admin {
-  // Forced hiding of dismissible notices
-  .notice.is-dismissible {
-    @extend %hide-notice;
+  .wrap {
+    .notice.is-dismissible.notice-success,
+    .notice.is-dismissible.notice-error,
+    .notice.is-dismissible.notice-info {
+      @include show-notice;
+    }
   }
 
+  // Hiding rules for specific notices
+  .notice.is-dismissible,
   // Freemius notices
   .fs-notice.updated,
   .fs-notice.success,
@@ -66,9 +62,9 @@
   .error.pa-notice-wrap.pa-new-feature-notice,
   // YayMail notice
   #yaymail-notice,
-  //LoginPress
+  // LoginPress
   .loginpress-review-notice,
-   //ultimatelysocial
+  // ultimatelysocial
   .sfsi_new_premium_banner_body,
   // WPML notices
   .notice.notice-info.is-dismissible.otgs-notice,
@@ -83,7 +79,16 @@
   .notice.notice-info.is-dismissible.wp-mail-logging-review-notice,
   .notice.notice-info.aioseo-review-plugin-cta.is-dismissible,
   #members_review_notice,
-  #setting-error-tgmpa {
-    @extend %hide-notice; // Apply the hide rule
+  #setting-error-tgmpa,
+  // QuadLayers Instagram Gallery notice
+  .quadlayers_insta-gallery_notice_delay.notice.notice-info.is-dismissible,
+  .quadlayers_insta-gallery_notice_delay,
+  // Content Control notice
+  .content-control-notice,
+  // Additional jpum-notice selector
+  .jpum-notice,
+  // WP PDF review notice
+  .wppdf-review-notice {
+    @extend %hide-notice;
   }
 }
