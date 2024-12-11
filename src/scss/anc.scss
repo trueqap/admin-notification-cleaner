@@ -88,7 +88,9 @@ body.wp-admin {
   // Additional jpum-notice selector
   .jpum-notice,
   // WP PDF review notice
-  .wppdf-review-notice {
+  .wppdf-review-notice,
+  // LearnDash false updates notice
+  .learndash-updates-disabled-dismissible {
     @extend %hide-notice;
   }
 }
