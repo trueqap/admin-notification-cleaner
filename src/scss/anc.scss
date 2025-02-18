@@ -90,7 +90,13 @@ body.wp-admin {
   // WP PDF review notice
   .wppdf-review-notice,
   // LearnDash false updates notice
-  .learndash-updates-disabled-dismissible {
+  .learndash-updates-disabled-dismissible,
+  // Barion Pixel promotion notice
+  .notice.notice-info.is-dismissible.custom-admin-ad-notice,
+  // WooCommerce Gift Cards welcome notice
+  .wc_gc_notice.notice.notice-info.welcome.is-dismissible,
+  // Additional WPML notice variant
+  .info.notice-info.is-dismissible.notice.otgs-notice {
     @extend %hide-notice;
   }
 }
