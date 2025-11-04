@@ -274,7 +274,7 @@
         "sparkles": "^1.0.1",
         "spdx-correct": "^3.2.0",
         "spdx-exceptions": "^2.5.0",
-        "spdx-expression-parse": "^3.0.1",
+        "spdx-expression-parse": "^4.0.0",
         "spdx-license-ids": "^3.0.17",
         "split-string": "^3.1.0",
         "stack-trace": "^0.0.10",
