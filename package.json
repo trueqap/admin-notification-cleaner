@@ -140,7 +140,7 @@
         "has-symbols": "^1.0.3",
         "has-value": "^1.0.0",
         "has-values": "^1.0.0",
-        "hasown": "^2.0.1",
+        "hasown": "^2.0.2",
         "homedir-polyfill": "^1.0.3",
         "hosted-git-info": "^2.8.9",
         "immutable": "^4.3.5",
