@@ -142,7 +142,7 @@
         "has-values": "^1.0.0",
         "hasown": "^2.0.2",
         "homedir-polyfill": "^1.0.3",
-        "hosted-git-info": "^2.8.9",
+        "hosted-git-info": "^9.0.2",
         "immutable": "^4.3.5",
         "inflight": "^1.0.6",
         "inherits": "^2.0.4",
