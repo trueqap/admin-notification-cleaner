@@ -265,7 +265,7 @@
         "set-function-length": "^1.2.1",
         "set-value": "^2.0.1",
         "snapdragon": "^0.8.2",
-        "snapdragon-node": "^2.1.1",
+        "snapdragon-node": "^3.0.0",
         "snapdragon-util": "^3.0.1",
         "source-map": "^0.5.7",
         "source-map-js": "^1.0.2",
