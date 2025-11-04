@@ -122,7 +122,7 @@
         "function-bind": "^1.1.2",
         "get-caller-file": "^1.0.3",
         "get-intrinsic": "^1.2.4",
-        "get-value": "^2.0.6",
+        "get-value": "^4.0.1",
         "glob": "^7.2.3",
         "glob-parent": "^6.0.2",
         "glob-stream": "^8.0.0",
