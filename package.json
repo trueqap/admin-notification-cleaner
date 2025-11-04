@@ -284,7 +284,7 @@
         "string_decoder": "^1.1.1",
         "string-width": "^1.0.2",
         "strip-ansi": "^3.0.1",
-        "strip-bom": "^2.0.0",
+        "strip-bom": "^5.0.0",
         "supports-preserve-symlinks-flag": "^1.0.0",
         "sver-compat": "^1.5.0",
         "through2": "^2.0.5",
