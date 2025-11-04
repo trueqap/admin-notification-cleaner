@@ -295,7 +295,7 @@
         "to-regex": "^3.0.2",
         "to-regex-range": "^2.1.1",
         "to-through": "^2.0.0",
-        "type": "^1.2.0",
+        "type": "^2.7.3",
         "typedarray": "^0.0.6",
         "uglify-js": "^3.17.4",
         "unc-path-regex": "^0.1.2",
