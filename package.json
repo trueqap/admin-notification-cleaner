@@ -282,7 +282,7 @@
         "stream-exhaust": "^1.0.2",
         "stream-shift": "^1.0.3",
         "string_decoder": "^1.1.1",
-        "string-width": "^1.0.2",
+        "string-width": "^8.1.0",
         "strip-ansi": "^3.0.1",
         "strip-bom": "^5.0.0",
         "supports-preserve-symlinks-flag": "^1.0.0",
