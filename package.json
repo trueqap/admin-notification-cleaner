@@ -266,7 +266,7 @@
         "set-value": "^2.0.1",
         "snapdragon": "^0.8.2",
         "snapdragon-node": "^3.0.0",
-        "snapdragon-util": "^3.0.1",
+        "snapdragon-util": "^5.0.1",
         "source-map": "^0.5.7",
         "source-map-js": "^1.0.2",
         "source-map-resolve": "^0.5.3",
