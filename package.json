@@ -150,7 +150,7 @@
         "interpret": "^1.4.0",
         "invert-kv": "^1.0.0",
         "is-absolute": "^1.0.0",
-        "is-accessor-descriptor": "^1.0.1",
+        "is-accessor-descriptor": "^3.0.5",
         "is-arrayish": "^0.2.1",
         "is-binary-path": "^2.1.0",
         "is-buffer": "^1.1.6",
