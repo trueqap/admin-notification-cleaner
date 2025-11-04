@@ -302,7 +302,7 @@
         "undertaker": "^2.0.0",
         "undertaker-registry": "^2.0.0",
         "union-value": "^1.0.1",
-        "unique-stream": "^2.3.1",
+        "unique-stream": "^2.4.0",
         "unset-value": "^1.0.0",
         "upath": "^2.0.1",
         "update-browserslist-db": "^1.0.13",
