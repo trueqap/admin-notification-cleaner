@@ -96,7 +96,9 @@ body.wp-admin {
   // WooCommerce Gift Cards welcome notice
   .wc_gc_notice.notice.notice-info.welcome.is-dismissible,
   // Additional WPML notice variant
-  .info.notice-info.is-dismissible.notice.otgs-notice {
+  .info.notice-info.is-dismissible.notice.otgs-notice,
+  // Analytify review notice
+  .analytify-review-notice {
     @extend %hide-notice;
   }
 }
