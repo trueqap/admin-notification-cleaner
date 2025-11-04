@@ -258,7 +258,7 @@
         "resolve-url": "^0.2.1",
         "ret": "^0.1.15",
         "safe-buffer": "^5.1.2",
-        "safe-regex": "^1.1.0",
+        "safe-regex": "^2.1.1",
         "semver": "^5.7.2",
         "semver-greatest-satisfied-range": "^1.1.0",
         "set-blocking": "^2.0.0",
