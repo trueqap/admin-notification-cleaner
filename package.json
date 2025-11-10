@@ -56,7 +56,7 @@
         "cache-base": "^1.0.1",
         "call-bind": "^1.0.7",
         "camelcase": "^3.0.0",
-        "caniuse-lite": "^1.0.30001589",
+        "caniuse-lite": "^1.0.30001754",
         "chokidar": "^3.6.0",
         "class-utils": "^0.3.6",
         "cliui": "^3.2.0",
