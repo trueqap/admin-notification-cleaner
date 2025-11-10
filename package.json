@@ -301,7 +301,7 @@
         "unc-path-regex": "^0.1.2",
         "undertaker": "^2.0.0",
         "undertaker-registry": "^2.0.0",
-        "union-value": "^1.0.1",
+        "union-value": "^2.0.1",
         "unique-stream": "^2.4.0",
         "unset-value": "^2.0.1",
         "upath": "^2.0.1",
