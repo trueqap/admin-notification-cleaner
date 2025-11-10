@@ -64,7 +64,7 @@
         "clone-buffer": "^1.0.0",
         "clone-stats": "^1.0.0",
         "cloneable-readable": "^1.1.3",
-        "code-point-at": "^1.1.0",
+        "code-point-at": "^2.0.0",
         "collection-map": "^1.0.0",
         "collection-visit": "^1.0.0",
         "color-support": "^1.1.3",
