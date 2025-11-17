@@ -44,7 +44,7 @@
         "async-settle": "^1.0.0",
         "atob": "^2.1.2",
         "bach": "^1.2.0",
-        "balanced-match": "^1.0.2",
+        "balanced-match": "^3.0.1",
         "base": "^3.0.0",
         "binary-extensions": "^2.2.0",
         "bindings": "^1.5.0",
