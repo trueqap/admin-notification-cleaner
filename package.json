@@ -202,7 +202,7 @@
         "normalize-range": "^0.1.2",
         "now-and-later": "^2.0.1",
         "number-is-nan": "^1.0.1",
-        "object-copy": "^0.1.0",
+        "object-copy": "^1.0.0",
         "object-keys": "^1.1.1",
         "object-visit": "^1.0.1",
         "object.assign": "^4.1.7",
