@@ -212,7 +212,7 @@
         "object.reduce": "^1.0.1",
         "once": "^1.4.0",
         "ordered-read-streams": "^1.0.1",
-        "os-locale": "^1.4.0",
+        "os-locale": "^6.0.2",
         "parse-filepath": "^1.0.2",
         "parse-json": "^8.3.0",
         "parse-node-version": "^1.0.1",
