@@ -162,7 +162,7 @@
         "is-fullwidth-code-point": "^1.0.0",
         "is-glob": "^4.0.3",
         "is-negated-glob": "^1.0.0",
-        "is-number": "^3.0.0",
+        "is-number": "^7.0.0",
         "is-plain-object": "^2.0.4",
         "is-relative": "^1.0.0",
         "is-unc-path": "^1.0.0",
