@@ -83,7 +83,7 @@
         "default-resolution": "^2.0.0",
         "define-data-property": "^1.1.4",
         "define-properties": "^1.2.1",
-        "define-property": "^0.2.5",
+        "define-property": "^2.0.2",
         "detect-file": "^1.0.0",
         "duplexify": "^4.1.3",
         "each-props": "^1.3.2",
