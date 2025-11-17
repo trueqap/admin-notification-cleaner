@@ -57,7 +57,7 @@
         "call-bind": "^1.0.7",
         "camelcase": "^3.0.0",
         "caniuse-lite": "^1.0.30001755",
-        "chokidar": "^3.6.0",
+        "chokidar": "^4.0.3",
         "class-utils": "^0.3.6",
         "cliui": "^3.2.0",
         "clone": "^2.1.2",
