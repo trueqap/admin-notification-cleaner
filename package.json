@@ -138,7 +138,7 @@
         "has-property-descriptors": "^1.0.2",
         "has-proto": "^1.2.0",
         "has-symbols": "^1.0.3",
-        "has-value": "^1.0.0",
+        "has-value": "^2.0.2",
         "has-values": "^1.0.0",
         "hasown": "^2.0.2",
         "homedir-polyfill": "^1.0.3",
