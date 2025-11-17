@@ -134,7 +134,7 @@
         "graceful-fs": "^4.2.11",
         "gulp-cli": "^3.1.0",
         "gulplog": "^2.2.0",
-        "has-gulplog": "^0.1.0",
+        "has-gulplog": "^1.0.0",
         "has-property-descriptors": "^1.0.2",
         "has-proto": "^1.0.3",
         "has-symbols": "^1.0.3",
