@@ -85,7 +85,7 @@
         "define-properties": "^1.2.1",
         "define-property": "^0.2.5",
         "detect-file": "^1.0.0",
-        "duplexify": "^3.7.1",
+        "duplexify": "^4.1.3",
         "each-props": "^1.3.2",
         "electron-to-chromium": "^1.4.680",
         "end-of-stream": "^1.4.5",
