@@ -175,7 +175,7 @@
         "json-stable-stringify-without-jsonify": "^1.0.1",
         "just-debounce": "^1.1.0",
         "kind-of": "^6.0.3",
-        "last-run": "^1.1.1",
+        "last-run": "^2.0.0",
         "lazystream": "^1.0.1",
         "lcid": "^1.0.0",
         "lead": "^1.0.0",
