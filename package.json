@@ -16,7 +16,7 @@
         "gulp-sass": "^6.0.1",
         "gulp-uglify": "^3.0.2",
         "prettier": "^3.6.2",
-        "sass": "^1.93.3"
+        "sass": "^1.94.0"
     },
     "main": ".babelrc.js",
     "dependencies": {
