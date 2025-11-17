@@ -43,7 +43,7 @@
         "async-each": "^1.0.6",
         "async-settle": "^1.0.0",
         "atob": "^2.1.2",
-        "bach": "^1.2.0",
+        "bach": "^2.0.1",
         "balanced-match": "^3.0.1",
         "base": "^3.0.0",
         "binary-extensions": "^2.2.0",
