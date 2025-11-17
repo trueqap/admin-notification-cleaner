@@ -146,7 +146,7 @@
         "immutable": "^5.1.4",
         "inflight": "^1.0.6",
         "inherits": "^2.0.4",
-        "ini": "^1.3.8",
+        "ini": "^6.0.0",
         "interpret": "^3.1.1",
         "invert-kv": "^1.0.0",
         "is-absolute": "^1.0.0",
