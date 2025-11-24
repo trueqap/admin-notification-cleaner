@@ -309,7 +309,7 @@
         "urix": "^0.1.0",
         "use": "^3.1.1",
         "util-deprecate": "^1.0.2",
-        "v8flags": "^3.2.0",
+        "v8flags": "^4.0.1",
         "validate-npm-package-license": "^3.0.4",
         "value-or-function": "^4.0.0",
         "vinyl": "^3.0.1",
