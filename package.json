@@ -178,7 +178,7 @@
         "last-run": "^2.0.0",
         "lazystream": "^1.0.1",
         "lcid": "^1.0.0",
-        "lead": "^1.0.0",
+        "lead": "^4.0.0",
         "liftoff": "^3.1.0",
         "load-json-file": "^7.0.1",
         "lodash.clonedeep": "^4.5.0",
