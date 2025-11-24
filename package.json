@@ -219,7 +219,7 @@
         "parse-passwd": "^1.0.0",
         "pascalcase": "^2.0.0",
         "path-dirname": "^1.0.2",
-        "path-exists": "^2.1.0",
+        "path-exists": "^5.0.0",
         "path-is-absolute": "^1.0.1",
         "path-parse": "^1.0.7",
         "path-root": "^0.1.1",
