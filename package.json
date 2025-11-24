@@ -293,7 +293,7 @@
         "to-absolute-glob": "^3.0.0",
         "to-object-path": "^0.3.0",
         "to-regex": "^3.0.2",
-        "to-regex-range": "^2.1.1",
+        "to-regex-range": "^5.0.1",
         "to-through": "^3.0.0",
         "type": "^2.7.3",
         "typedarray": "^0.0.7",
