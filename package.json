@@ -217,7 +217,7 @@
         "parse-json": "^8.3.0",
         "parse-node-version": "^1.0.1",
         "parse-passwd": "^1.0.0",
-        "pascalcase": "^0.1.1",
+        "pascalcase": "^2.0.0",
         "path-dirname": "^1.0.2",
         "path-exists": "^2.1.0",
         "path-is-absolute": "^1.0.1",
