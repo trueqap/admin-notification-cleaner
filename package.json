@@ -71,7 +71,7 @@
         "component-emitter": "^2.0.0",
         "concat-map": "^0.0.1",
         "concat-stream": "^1.6.2",
-        "convert-source-map": "^1.9.0",
+        "convert-source-map": "^2.0.0",
         "copy-descriptor": "^0.1.1",
         "copy-props": "^4.0.0",
         "core-util-is": "^1.0.3",
