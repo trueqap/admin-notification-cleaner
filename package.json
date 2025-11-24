@@ -105,7 +105,7 @@
         "extglob": "^3.0.0",
         "fancy-log": "^2.0.0",
         "fast-levenshtein": "^3.0.0",
-        "file-uri-to-path": "^1.0.0",
+        "file-uri-to-path": "^2.0.0",
         "fill-range": "^7.1.1",
         "find-up": "^8.0.0",
         "findup-sync": "^2.0.0",
