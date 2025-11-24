@@ -8,7 +8,7 @@
     "author": "trueqap",
     "license": "ISC",
     "devDependencies": {
-        "autoprefixer": "^10.4.16",
+        "autoprefixer": "^10.4.22",
         "gulp": "^5.0.1",
         "gulp-clean-css": "^4.3.0",
         "gulp-prettier": "^6.0.0",
