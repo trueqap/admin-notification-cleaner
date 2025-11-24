@@ -290,7 +290,7 @@
         "through2": "^4.0.2",
         "through2-filter": "^4.0.0",
         "time-stamp": "^2.2.0",
-        "to-absolute-glob": "^2.0.2",
+        "to-absolute-glob": "^3.0.0",
         "to-object-path": "^0.3.0",
         "to-regex": "^3.0.2",
         "to-regex-range": "^2.1.1",
