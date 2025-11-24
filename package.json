@@ -241,7 +241,7 @@
         "read-pkg-up": "^11.0.0",
         "readable-stream": "^4.7.0",
         "readdirp": "^4.1.2",
-        "rechoir": "^0.6.2",
+        "rechoir": "^0.8.0",
         "regex-not": "^1.0.2",
         "remove-bom-buffer": "^3.0.0",
         "remove-bom-stream": "^2.0.0",
