@@ -109,7 +109,7 @@
         "fill-range": "^7.1.1",
         "find-up": "^8.0.0",
         "findup-sync": "^2.0.0",
-        "fined": "^1.2.0",
+        "fined": "^2.0.0",
         "flagged-respawn": "^2.0.0",
         "flush-write-stream": "^2.0.0",
         "for-in": "^1.0.2",
