@@ -269,7 +269,7 @@
         "snapdragon-util": "^5.0.1",
         "source-map": "^0.7.6",
         "source-map-js": "^1.0.2",
-        "source-map-resolve": "^0.5.3",
+        "source-map-resolve": "^0.6.0",
         "source-map-url": "^0.4.1",
         "sparkles": "^2.1.0",
         "spdx-correct": "^3.2.0",
