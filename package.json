@@ -312,7 +312,7 @@
         "v8flags": "^3.2.0",
         "validate-npm-package-license": "^3.0.4",
         "value-or-function": "^4.0.0",
-        "vinyl": "^2.2.1",
+        "vinyl": "^3.0.1",
         "vinyl-fs": "^4.0.0",
         "vinyl-sourcemap": "^2.0.0",
         "vinyl-sourcemaps-apply": "^0.2.1",
