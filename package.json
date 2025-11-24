@@ -197,7 +197,7 @@
         "nanomatch": "^1.2.13",
         "next-tick": "^1.1.0",
         "node-releases": "^2.0.14",
-        "normalize-package-data": "^2.5.0",
+        "normalize-package-data": "^8.0.0",
         "normalize-path": "^3.0.0",
         "normalize-range": "^0.1.2",
         "now-and-later": "^3.0.0",
