@@ -297,7 +297,7 @@
         "to-through": "^2.0.0",
         "type": "^2.7.3",
         "typedarray": "^0.0.7",
-        "uglify-js": "^3.17.4",
+        "uglify-js": "^3.19.3",
         "unc-path-regex": "^0.1.2",
         "undertaker": "^2.0.0",
         "undertaker-registry": "^2.0.0",
