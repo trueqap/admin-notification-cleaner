@@ -38,7 +38,7 @@
         "array-slice": "^1.1.0",
         "array-sort": "^1.0.0",
         "array-unique": "^0.3.2",
-        "assign-symbols": "^1.0.0",
+        "assign-symbols": "^2.0.2",
         "async-done": "^1.3.2",
         "async-each": "^1.0.6",
         "async-settle": "^1.0.0",
