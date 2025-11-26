@@ -1,104 +1,122 @@
-// Basic display rule for notices
-@mixin show-notice {
-  display: block !important;
-}
-
-// Basic hide rule to be used extensively
+// Hide rule placeholder
 %hide-notice {
   display: none !important;
 }
 
-// Styles for the WordPress admin area
+// WordPress admin area
 body.wp-admin {
-  // Default notices we want to show
-  .wrap {
-    .notice.is-dismissible.notice-success,
-    .notice.is-dismissible.notice-error,
-    .notice.is-dismissible.notice-info {
-      @include show-notice;
-    }
-  }
+  // ===========================================
+  // Plugin-specific notices (unique classes)
+  // ===========================================
 
-  // Hiding rules for specific notices
-  .notice.is-dismissible,
-  // Freemius notices
-  .fs-notice.updated,
-  .fs-notice.success,
-  .fs-notice.promotion,
+  // Freemius
   .fs-notice,
-  // SweetCode notice
+
+  // SweetCode
   .wpm-rating-success-notice,
-  // TagDiv error message
-  .td-error-activate .td-wp-admin-theme,
-  // Usermenu notices
+
+  // TagDiv
+  .td-error-activate,
+
+  // Usermenu
   .jpum-notice,
-  .notice.notice-success.is-dismissible.jpum-notice,
-  // PrettyPay notices
+
+  // PrettyPay
   .prli-notice,
-  #prli_review_notice,
-  // WooCommerce Smart COD promotion
+
+  // WooCommerce Smart COD
   .wsc-pro-notice,
-  // WP Bakery update notice
-  .updated.wpb-notice,
-  .updated.vc_license-activation-notice,
-  // WP Mail SMTP review request
-  .notice-info.is-dismissible.wp-mail-smtp-review-notice,
-  // PixelYourSite opt-in notice
-  .notice.is-dismissible.pys-optin-notice.pys-notice-wrapper,
-  .notice.notice-info.is-dismissible.pys_core_gdpr_ajax_notice,
-  .notice.notice-info.is-dismissible.pys-chain-fixed-notice.pys-fixed-notice,
-  // Elementor accessibility notice
-  .notice.updated.is-dismissible.a11y-notice.a11y-install-elementor,
-  // Extended notices
-  .notice.e-notice.e-notice--dismissible.e-notice--extended,
-  // AdRotate notification
+
+  // WooCommerce SkyVerge plugins (Sequential Order Numbers Pro, etc.)
+  .js-wc-plugin-framework-admin-notice,
+
+  // WP Bakery
+  .wpb-notice,
+  .vc_license-activation-notice,
+
+  // WP Mail SMTP
+  .wp-mail-smtp-review-notice,
+
+  // PixelYourSite
+  .pys-optin-notice,
+  .pys_core_gdpr_ajax_notice,
+  .pys-chain-fixed-notice,
+
+  // Elementor accessibility
+  .a11y-notice,
+
+  // Elementor extended
+  .e-notice--extended,
+
+  // The Plus Addons for Elementor
+  .tpae-notice-show,
+
+  // AdRotate
   .ajdg-notification,
-  // CTX Feed notice
-  .woo-feed-notice.notice.notice-info,
-  // Theme setup notices
-  .notice.notice-success.settings-error.is-dismissible,
-  .notice.notice-warning.settings-error.is-dismissible,
-  // Premium Off Canvas feature notice
-  .error.pa-notice-wrap.pa-new-feature-notice,
-  // YayMail notice
-  #yaymail-notice,
+
+  // CTX Feed
+  .woo-feed-notice,
+
+  // Premium Addons Off Canvas
+  .pa-notice-wrap,
+
   // LoginPress
   .loginpress-review-notice,
-  // ultimatelysocial
+
+  // Ultimate Social
   .sfsi_new_premium_banner_body,
-  // WPML notices
-  .notice.notice-info.is-dismissible.otgs-notice,
-  // WP Optimize
-  #wp-optimize-dashnotice,
+
+  // WPML
+  .otgs-notice,
+  .wpml-banner,
+
   // Essential Addons for Elementor
-  #wpnotice-essential-addons-for-elementor-review,
-  // WebP Converter for Media notice
-  div[data-notice="webp-converter-for-media"],
-  // Review notices
-  .notice.notice-info.is-dismissible.members-review-notice,
-  .notice.notice-info.is-dismissible.wp-mail-logging-review-notice,
-  .notice.notice-info.aioseo-review-plugin-cta.is-dismissible,
-  #members_review_notice,
-  #setting-error-tgmpa,
-  // QuadLayers Instagram Gallery notice
-  .quadlayers_insta-gallery_notice_delay.notice.notice-info.is-dismissible,
-  .quadlayers_insta-gallery_notice_delay,
-  // Content Control notice
+  [class*="wpnotice-essential-addons"],
+
+  // WebP Converter for Media
+  [data-notice="webp-converter-for-media"],
+
+  // Members
+  .members-review-notice,
+
+  // WP Mail Logging
+  .wp-mail-logging-review-notice,
+
+  // AIOSEO
+  .aioseo-review-plugin-cta,
+
+  // QuadLayers (Instagram Gallery, Autocomplete WooCommerce Orders, etc.)
+  [class*="quadlayers_"],
+
+  // Content Control
   .content-control-notice,
-  // Additional jpum-notice selector
-  .jpum-notice,
-  // WP PDF review notice
+
+  // WP PDF
   .wppdf-review-notice,
-  // LearnDash false updates notice
+
+  // LearnDash
   .learndash-updates-disabled-dismissible,
-  // Barion Pixel promotion notice
-  .notice.notice-info.is-dismissible.custom-admin-ad-notice,
-  // WooCommerce Gift Cards welcome notice
-  .wc_gc_notice.notice.notice-info.welcome.is-dismissible,
-  // Additional WPML notice variant
-  .info.notice-info.is-dismissible.notice.otgs-notice,
-  // Analytify review notice
-  .analytify-review-notice {
+
+  // Barion Pixel
+  .custom-admin-ad-notice,
+
+  // WooCommerce Gift Cards
+  .wc_gc_notice,
+
+  // Analytify
+  .analytify-review-notice,
+
+  // Preorders for WooCommerce (Bright Plugins)
+  .bayna-review-notice,
+
+  // ===========================================
+  // ID-based selectors
+  // ===========================================
+  #yaymail-notice,
+  #wp-optimize-dashnotice,
+  #prli_review_notice,
+  #members_review_notice,
+  #setting-error-tgmpa {
     @extend %hide-notice;
   }
 }
