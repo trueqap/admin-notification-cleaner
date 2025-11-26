@@ -119,7 +119,8 @@ body.wp-admin {
   #wp-optimize-dashnotice,
   #prli_review_notice,
   #members_review_notice,
-  #setting-error-tgmpa {
+  #setting-error-tgmpa,
+  #rocketcdn-promote-notice {
     @extend %hide-notice;
   }
 }
