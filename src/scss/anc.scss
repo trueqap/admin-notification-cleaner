@@ -109,6 +109,9 @@ body.wp-admin {
   // Preorders for WooCommerce (Bright Plugins)
   .bayna-review-notice,
 
+  // WP Rocket (has :has selector for parent targeting)
+  .notice:has(.rocket-dismiss),
+
   // ===========================================
   // ID-based selectors
   // ===========================================
