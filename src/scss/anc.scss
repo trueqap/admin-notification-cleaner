@@ -41,6 +41,7 @@ body.wp-admin {
   .pys-optin-notice,
   .pys_core_gdpr_ajax_notice,
   .pys-chain-fixed-notice,
+  .pys_ga_no_pixel_notice,
 
   // Elementor accessibility
   .a11y-notice,
@@ -105,6 +106,15 @@ body.wp-admin {
 
   // Analytify
   .analytify-review-notice,
+
+  // Trustindex (Google Reviews plugin)
+  .trustindex-notification-row,
+
+  // HuCommerce (Magyar WooCommerce)
+  [data-dismissible^="hucommerce-"],
+
+  // VillaTheme plugins
+  .villatheme-dashboard,
 
   // Preorders for WooCommerce (Bright Plugins)
   .bayna-review-notice,
